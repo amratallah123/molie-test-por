@@ -2,6 +2,12 @@
 <html lang="ar" dir="rtl">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- preload the image https://www.e3melbusiness.net/cdn/assets/img/bg/home.jpg?v=3.1.0.45&width=426&height=426 -->
+    <link
+      rel="preload"
+      as="image"
+      href="https://ik.imagekit.io/ebyosrntu/home-webp.webp?updatedAt=1748333009998"
+    />
 
     <link
       rel="apple-touch-icon"
@@ -73,6 +79,7 @@
       href="assets/favicon/favicon-16x16.png"
     />
     <link rel="manifest" href="assets/favicon/manifest.json" />
+
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
@@ -1567,8 +1574,10 @@
               <div class="image">
                 <img
                   class="img img-fluid"
-                  src="https://www.e3melbusiness.net/cdn/assets/img/bg/home.jpg?v=3.1.0.45&width=426&height=426"
+                  src="https://ik.imagekit.io/ebyosrntu/home-webp.webp?updatedAt=1748333009998"
                   alt="أكاديمية اعمل بيزنس"
+                  fetchpriority="high"
+                  loading="eager"
                 />
               </div>
             </div>
@@ -3384,7 +3393,11 @@
               </p>
             </div>
             <div class="social d-flex flex-wrap gap-4 mt-30">
-              <a target="_blank" rel="noopener" href="https://www.facebook.com/e3melbusiness">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.facebook.com/e3melbusiness"
+              >
                 <img src="assets/images/footer/facebook.svg" alt="facebook" />
               </a>
               <a
@@ -3401,7 +3414,11 @@
               >
                 <img src="assets/images/footer/linkedin.svg" alt="linkedin" />
               </a>
-              <a target="_blank" rel="noopener" href="https://x.com/E3melBusiness">
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://x.com/E3melBusiness"
+              >
                 <img src="assets/images/footer/x.svg" alt="x" />
               </a>
               <a
@@ -3537,11 +3554,23 @@
         </div>
       </div>
     </footer>
-    <script src="assets/plugins/jquery/jquery.v3.4.1.min.js?v=3.1.0.42"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js?v=3.1.0.42"></script>
-    <script src="assets/plugins/swiper/swiper-bundle.min.js?v=3.1.0.42"></script>
-    <script src="assets/plugins/validation/jquery.validate.min.js?v=3.1.0.42"></script>
-    <script src="assets/js/carousel.js?v=3.1.0.42"></script>
+    <script
+      async
+      src="assets/plugins/jquery/jquery.v3.4.1.min.js?v=3.1.0.42"
+    ></script>
+    <script
+      async
+      src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js?v=3.1.0.42"
+    ></script>
+    <script
+      async
+      src="assets/plugins/swiper/swiper-bundle.min.js?v=3.1.0.42"
+    ></script>
+    <script
+      async
+      src="assets/plugins/validation/jquery.validate.min.js?v=3.1.0.42"
+    ></script>
+    <script async src="assets/js/carousel.js?v=3.1.0.42"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         setInterval(function () {
@@ -3570,9 +3599,12 @@
         }, 2000);
       });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     ]
-    <script src="./assets/plugins/rater-js/jquery.star-rating.js?v=3.1.0.42"></script>
+    <script
+      async
+      src="./assets/plugins/rater-js/jquery.star-rating.js?v=3.1.0.42"
+    ></script>
     <script>
       window.Toast = Swal.mixin({
         toast: true,
