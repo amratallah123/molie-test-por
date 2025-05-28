@@ -370,7 +370,16 @@
       href="assets/plugins/swiper/swiper-bundle.min.css?v=3.1.0.43"
     />
 
-    <link rel="stylesheet" href="assets/css/app.css?v=3.1.0.43" />
+    <!-- in <head> -->
+    <link
+      rel="preload"
+      href="assets/css/app.css?v=3.1.0.43"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/app.css?v=3.1.0.43"
+    /></noscript>
     <!--<link rel="stylesheet" href="assets/css/rtl.css?v=-->
     <!--" />-->
 
@@ -622,7 +631,7 @@
       }
     </style>
     <!--<script src="assets/js/firebase.js?v=-->
-    <!--" defer></script>-->
+    <!--" ></script>-->
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -672,6 +681,7 @@
         width="1"
         src="https://www.facebook.com/tr?id=748077489186800&ev=PageView
 &noscript=1"
+        loading="lazy"
       />
     </noscript>
     <!-- End Facebook Pixel Code -->
@@ -710,6 +720,7 @@
         width="1"
         style="display: none"
         src="https://www.facebook.com/tr?id=919961634811544&ev=PageView&noscript=1"
+        loading="lazy"
     /></noscript>
     <!-- DO NOT MODIFY -->
     <!-- End Facebook Pixel Code -->
@@ -1628,6 +1639,7 @@
           class="shape_2"
           src="https://www.e3melbusiness.net/cdn/assets/images/shapes/02.png?v=3.1.0.45"
           alt="أكاديمية اعمل بيزنس"
+          loading="lazy"
         />
         <div class="container adjusted_container">
           <div class="row">
@@ -1653,6 +1665,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/Strategic-Management-–-Part-2.png?v=3.1.0.45&width=378&height=246"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Strategic-Management-–-Part-2.png?v=3.1.0.45&width=378&height=246"
                               alt="الإدارة الاستراتيجية - الجزء الثاني"
+                              loading="lazy"
                             />
                           </a>
                         </div>
@@ -1680,6 +1693,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/Tamers3ed.jpg?v=3.1.0.45&width=149&height=40"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Tamers3ed.jpg?v=3.1.0.45&width=149&height=40"
                               alt="تامر سعيد"
+                              loading="lazy"
                             />
                             <div class="wrap">
                               <h6>تامر سعيد</h6>
@@ -1699,6 +1713,7 @@
                             <img
                               src="assets/images/icons/play.svg"
                               alt="عدد الفيديوهات"
+                              loading="lazy"
                             />
                             <span
                               >15 <span class="item_label">فيديو</span></span
@@ -1708,6 +1723,7 @@
                             <img
                               src="assets/images/icons/clock.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span
                               >02:35 <span class="item_label">ساعة</span></span
@@ -1717,6 +1733,7 @@
                             <img
                               src="assets/images/icons/student.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span> <span class="item_label">طالب</span></span>
                           </li>
@@ -1735,6 +1752,7 @@
                             style="height: 1.2rem"
                             src="assets/img/button-icon.svg"
                             alt=""
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -1751,6 +1769,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/Strategic-Management-–-Part-1.png?v=3.1.0.45&width=378&height=246"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Strategic-Management-–-Part-1.png?v=3.1.0.45&width=378&height=246"
                               alt="الإدارة الاستراتيجية - الجزء الأول"
+                              loading="lazy"
                             />
                           </a>
                         </div>
@@ -1778,6 +1797,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/Tamers3ed.jpg?v=3.1.0.45&width=149&height=40"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Tamers3ed.jpg?v=3.1.0.45&width=149&height=40"
                               alt="تامر سعيد"
+                              loading="lazy"
                             />
                             <div class="wrap">
                               <h6>تامر سعيد</h6>
@@ -1797,6 +1817,7 @@
                             <img
                               src="assets/images/icons/play.svg"
                               alt="عدد الفيديوهات"
+                              loading="lazy"
                             />
                             <span
                               >20 <span class="item_label">فيديو</span></span
@@ -1806,6 +1827,7 @@
                             <img
                               src="assets/images/icons/clock.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span
                               >04:12 <span class="item_label">ساعة</span></span
@@ -1815,6 +1837,7 @@
                             <img
                               src="assets/images/icons/student.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span> <span class="item_label">طالب</span></span>
                           </li>
@@ -1833,6 +1856,7 @@
                             style="height: 1.2rem"
                             src="assets/img/button-icon.svg"
                             alt=""
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -1851,6 +1875,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/Restaurant-Operations-Management---Part2.png?v=3.1.0.45&width=378&height=246"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Restaurant-Operations-Management---Part2.png?v=3.1.0.45&width=378&height=246"
                               alt="إدارة العمليات و التشغيل للمطاعم - الجزء الثاني"
+                              loading="lazy"
                             />
                           </a>
                         </div>
@@ -1881,6 +1906,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2.jpg?v=3.1.0.45&width=149&height=40"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2.jpg?v=3.1.0.45&width=149&height=40"
                               alt="مصطفي أبو خليل"
+                              loading="lazy"
                             />
                             <div class="wrap">
                               <h6>مصطفي أبو خليل</h6>
@@ -1900,6 +1926,7 @@
                             <img
                               src="assets/images/icons/play.svg"
                               alt="عدد الفيديوهات"
+                              loading="lazy"
                             />
                             <span
                               >29 <span class="item_label">فيديو</span></span
@@ -1909,6 +1936,7 @@
                             <img
                               src="assets/images/icons/clock.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span
                               >04:23 <span class="item_label">ساعة</span></span
@@ -1918,6 +1946,7 @@
                             <img
                               src="assets/images/icons/student.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span> <span class="item_label">طالب</span></span>
                           </li>
@@ -1936,6 +1965,7 @@
                             style="height: 1.2rem"
                             src="assets/img/button-icon.svg"
                             alt=""
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -1954,6 +1984,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/Restaurant-Operations-Management---Part-1.png?v=3.1.0.45&width=378&height=246"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Restaurant-Operations-Management---Part-1.png?v=3.1.0.45&width=378&height=246"
                               alt="إدارة العمليات و التشغيل للمطاعم - الجزء الأول"
+                              loading="lazy"
                             />
                           </a>
                         </div>
@@ -1983,6 +2014,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2.jpg?v=3.1.0.45&width=149&height=40"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2.jpg?v=3.1.0.45&width=149&height=40"
                               alt="مصطفي أبو خليل"
+                              loading="lazy"
                             />
                             <div class="wrap">
                               <h6>مصطفي أبو خليل</h6>
@@ -2002,6 +2034,7 @@
                             <img
                               src="assets/images/icons/play.svg"
                               alt="عدد الفيديوهات"
+                              loading="lazy"
                             />
                             <span
                               >12 <span class="item_label">فيديو</span></span
@@ -2011,6 +2044,7 @@
                             <img
                               src="assets/images/icons/clock.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span
                               >01:58 <span class="item_label">ساعة</span></span
@@ -2020,6 +2054,7 @@
                             <img
                               src="assets/images/icons/student.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span> <span class="item_label">طالب</span></span>
                           </li>
@@ -2038,6 +2073,7 @@
                             style="height: 1.2rem"
                             src="assets/img/button-icon.svg"
                             alt=""
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2054,6 +2090,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/1--Marketing-Plan.png?v=3.1.0.45&width=378&height=246"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/1--Marketing-Plan.png?v=3.1.0.45&width=378&height=246"
                               alt="إعداد الخطة التسويقية"
+                              loading="lazy"
                             />
                           </a>
                         </div>
@@ -2081,6 +2118,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/أمجد-فهمي-ديزاين-1080.jpg?v=3.1.0.45&width=149&height=40"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/أمجد-فهمي-ديزاين-1080.jpg?v=3.1.0.45&width=149&height=40"
                               alt="أمجد فهمي"
+                              loading="lazy"
                             />
                             <div class="wrap">
                               <h6>أمجد فهمي</h6>
@@ -2100,6 +2138,7 @@
                             <img
                               src="assets/images/icons/play.svg"
                               alt="عدد الفيديوهات"
+                              loading="lazy"
                             />
                             <span
                               >12 <span class="item_label">فيديو</span></span
@@ -2109,6 +2148,7 @@
                             <img
                               src="assets/images/icons/clock.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span
                               >03:01 <span class="item_label">ساعة</span></span
@@ -2118,6 +2158,7 @@
                             <img
                               src="assets/images/icons/student.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span> <span class="item_label">طالب</span></span>
                           </li>
@@ -2136,6 +2177,7 @@
                             style="height: 1.2rem"
                             src="assets/img/button-icon.svg"
                             alt=""
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2154,6 +2196,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/Creating-Image-By-Midjourney-–-Part-2.png?v=3.1.0.45&width=378&height=246"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Creating-Image-By-Midjourney-–-Part-2.png?v=3.1.0.45&width=378&height=246"
                               alt="تصميم الصور باستخدام الذكاء الاصطناعي (ميدجورني) - الجزء الثاني"
+                              loading="lazy"
                             />
                           </a>
                         </div>
@@ -2184,6 +2227,7 @@
                               data-src="https://www.e3melbusiness.net/cdn/assets/images/رامي-مدحت-ديزاين-1080.jpg?v=3.1.0.45&width=149&height=40"
                               data-srcset="https://www.e3melbusiness.net/cdn/assets/images/رامي-مدحت-ديزاين-1080.jpg?v=3.1.0.45&width=149&height=40"
                               alt="رامى مدحت"
+                              loading="lazy"
                             />
                             <div class="wrap">
                               <h6>رامى مدحت</h6>
@@ -2203,6 +2247,7 @@
                             <img
                               src="assets/images/icons/play.svg"
                               alt="عدد الفيديوهات"
+                              loading="lazy"
                             />
                             <span
                               >12 <span class="item_label">فيديو</span></span
@@ -2212,6 +2257,7 @@
                             <img
                               src="assets/images/icons/clock.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span
                               >02:29 <span class="item_label">ساعة</span></span
@@ -2221,6 +2267,7 @@
                             <img
                               src="assets/images/icons/student.svg"
                               alt="عدد المحاضرات"
+                              loading="lazy"
                             />
                             <span> <span class="item_label">طالب</span></span>
                           </li>
@@ -2239,6 +2286,7 @@
                             style="height: 1.2rem"
                             src="assets/img/button-icon.svg"
                             alt=""
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2283,6 +2331,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-4.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-4.png?v=3.1.0.45&width=130&height=130"
                             alt="PMI"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2298,6 +2347,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-10-copy.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-10-copy.png?v=3.1.0.45&width=130&height=130"
                             alt="MICRO"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2313,6 +2363,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-1.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-1.png?v=3.1.0.45&width=130&height=130"
                             alt="ACMP"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2328,6 +2379,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-2.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-2.png?v=3.1.0.45&width=130&height=130"
                             alt="ATP"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2343,6 +2395,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-3.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-3.png?v=3.1.0.45&width=130&height=130"
                             alt="CCC"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2358,6 +2411,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-5.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-5.png?v=3.1.0.45&width=130&height=130"
                             alt="ADOBE"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2373,6 +2427,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-6-copy.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-6-copy.png?v=3.1.0.45&width=130&height=130"
                             alt="ISO"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2388,6 +2443,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-6.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-6.png?v=3.1.0.45&width=130&height=130"
                             alt="IBTA"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2403,6 +2459,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-7.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-7.png?v=3.1.0.45&width=130&height=130"
                             alt="COMPTIA"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2418,6 +2475,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-10-copy-2.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-10-copy-2.png?v=3.1.0.45&width=130&height=130"
                             alt="CPD"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2433,6 +2491,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-10.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-10.png?v=3.1.0.45&width=130&height=130"
                             alt="DMI"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2448,6 +2507,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-35.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-35.png?v=3.1.0.45&width=130&height=130"
                             alt="AJMAN"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2463,6 +2523,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-36.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-36.png?v=3.1.0.45&width=130&height=130"
                             alt="IFTDO"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2478,6 +2539,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-37.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-37.png?v=3.1.0.45&width=130&height=130"
                             alt="MARA"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2493,6 +2555,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-39.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-39.png?v=3.1.0.45&width=130&height=130"
                             alt="UQU"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2508,6 +2571,7 @@
                             data-src="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-40.png?v=3.1.0.45&width=130&height=130"
                             data-srcset="https://www.e3melbusiness.net/cdn//assets/images//ourpartners/Artboard-40.png?v=3.1.0.45&width=130&height=130"
                             alt="EOS"
+                            loading="lazy"
                           />
                         </a>
                       </div>
@@ -2522,8 +2586,8 @@
         </div>
       </section>
       <!--    <section class="courses_section section_abstract section-padding-md bg-light px-2">-->
-      <!--        <img class="shape_1" src="assets/images/shapes/03.png" alt="أكاديمية اعمل بيزنس" />-->
-      <!--        <img class="shape_3" src="assets/images/shapes/04.png" alt="أكاديمية اعمل بيزنس" />-->
+      <!--        <img class="shape_1" src="assets/images/shapes/03.png" alt="أكاديمية اعمل بيزنس" loading="lazy"/>-->
+      <!--        <img class="shape_3" src="assets/images/shapes/04.png" alt="أكاديمية اعمل بيزنس" loading="lazy"/>-->
       <!--        <div class="container adjusted_container">-->
       <!--            <div class="row">-->
       <!--                <div class="col-12 text-center">-->
@@ -2568,6 +2632,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/design(1).jpg?v=3.1.0.45&width=150&height=150"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/design(1).jpg?v=3.1.0.45&width=150&height=150"
                     alt="محمد الباز"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text">
@@ -2596,6 +2661,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2(65).jpg?v=3.1.0.45&width=150&height=150"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2(65).jpg?v=3.1.0.45&width=150&height=150"
                     alt="مصطفى نوارج"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text">
@@ -2624,6 +2690,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/رأفت-يوسف-ديزاين-1080.jpg?v=3.1.0.45&width=150&height=150"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/رأفت-يوسف-ديزاين-1080.jpg?v=3.1.0.45&width=150&height=150"
                     alt="رأفت يوسف"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text">
@@ -2651,6 +2718,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2(70).jpg?v=3.1.0.45&width=150&height=150"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2(70).jpg?v=3.1.0.45&width=150&height=150"
                     alt="مروان عثمان"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text">
@@ -2679,6 +2747,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2(74).jpg?v=3.1.0.45&width=150&height=150"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/1920-1080-Edit-2(74).jpg?v=3.1.0.45&width=150&height=150"
                     alt="هاني حسين"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text">
@@ -2704,6 +2773,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/شريف-شحاتة-ديزاين-1080.jpg?v=3.1.0.45&width=150&height=150"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/شريف-شحاتة-ديزاين-1080.jpg?v=3.1.0.45&width=150&height=150"
                     alt="شريف شحاتة"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text">
@@ -2767,6 +2837,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/1--الادارة(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/1--الادارة(2).png?v=3.1.0.45&width=194&height=126"
                     alt="الإدارة"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2796,6 +2867,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/2-التسويق-الإلكتروني(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/2-التسويق-الإلكتروني(2).png?v=3.1.0.45&width=194&height=126"
                     alt="التسويق الإلكتروني"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2825,6 +2897,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/3--الموارد-البشرية(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/3--الموارد-البشرية(2).png?v=3.1.0.45&width=194&height=126"
                     alt="الموارد البشرية"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2854,6 +2927,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/4--المحاسبة-والاداره-المالية(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/4--المحاسبة-والاداره-المالية(2).png?v=3.1.0.45&width=194&height=126"
                     alt="المحاسبة والإدارة المالية"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2883,6 +2957,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/5--المبيعات_(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/5--المبيعات_(2).png?v=3.1.0.45&width=194&height=126"
                     alt="المبيعات"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2909,6 +2984,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/6--التسويق_(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/6--التسويق_(2).png?v=3.1.0.45&width=194&height=126"
                     alt="التسويق"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2938,6 +3014,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/7--رياده-الاعمال(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/7--رياده-الاعمال(2).png?v=3.1.0.45&width=194&height=126"
                     alt="ريادة الأعمال"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2967,6 +3044,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/8--تكنولوجي-المعلومات_(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/8--تكنولوجي-المعلومات_(2).png?v=3.1.0.45&width=194&height=126"
                     alt="تكنولوجيا المعلومات"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -2996,6 +3074,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/9--خدمة-العملاء(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/9--خدمة-العملاء(2).png?v=3.1.0.45&width=194&height=126"
                     alt="خدمة العملاء"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3025,6 +3104,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/10--المهارات-الشخصية(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/10--المهارات-الشخصية(2).png?v=3.1.0.45&width=194&height=126"
                     alt="المهارات الشخصية"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3054,6 +3134,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/11--اللغة-الانجليزية(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/11--اللغة-الانجليزية(2).png?v=3.1.0.45&width=194&height=126"
                     alt="اللغة الإنجليزية"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3083,6 +3164,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/12-سلالس-الامداد(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/12-سلالس-الامداد(2).png?v=3.1.0.45&width=194&height=126"
                     alt="إدارة سلاسل الإمداد"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3112,6 +3194,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/13--اداره-الجوده(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/13--اداره-الجوده(2).png?v=3.1.0.45&width=194&height=126"
                     alt="إدارة الجودة"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3141,6 +3224,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/14--التسويق-العقاري(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/14--التسويق-العقاري(2).png?v=3.1.0.45&width=194&height=126"
                     alt="التسويق العقاري"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3167,6 +3251,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/15--القانون(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/15--القانون(2).png?v=3.1.0.45&width=194&height=126"
                     alt="القانون"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3196,6 +3281,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/16--الاقتصاد(2).png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/16--الاقتصاد(2).png?v=3.1.0.45&width=194&height=126"
                     alt="الاقتصاد"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3225,6 +3311,7 @@
                     data-src="https://www.e3melbusiness.net/cdn/assets/images/Ai.png?v=3.1.0.45&width=194&height=126"
                     data-srcset="https://www.e3melbusiness.net/cdn/assets/images/Ai.png?v=3.1.0.45&width=194&height=126"
                     alt="الذكاء الاصطناعي"
+                    loading="lazy"
                   />
                 </div>
                 <div class="text-content">
@@ -3275,6 +3362,7 @@
                       <img
                         src="assets/img/home-icons/meetings-seminars.png"
                         alt="أكاديمية اعمل بيزنس"
+                        loading="lazy"
                       />
                     </div>
                     <div class="text-content">
@@ -3289,6 +3377,7 @@
                       <img
                         src="assets/img/home-icons/books.png"
                         alt="أكاديمية اعمل بيزنس"
+                        loading="lazy"
                       />
                     </div>
                     <div class="text-content">
@@ -3303,6 +3392,7 @@
                       <img
                         src="assets/img/home-icons/pdf.png"
                         alt="أكاديمية اعمل بيزنس"
+                        loading="lazy"
                       />
                     </div>
                     <div class="text-content">
@@ -3317,6 +3407,7 @@
                       <img
                         src="assets/img/home-icons/templates.png"
                         alt="أكاديمية اعمل بيزنس"
+                        loading="lazy"
                       />
                     </div>
                     <div class="text-content">
@@ -3331,6 +3422,7 @@
                       <img
                         src="assets/img/home-icons/success-stories.png?v=3.1.0.45"
                         alt="أكاديمية اعمل بيزنس"
+                        loading="lazy"
                       />
                     </div>
                     <div class="text-content">
@@ -3345,6 +3437,7 @@
                       <img
                         src="assets/img/home-icons/blogs.png"
                         alt="أكاديمية اعمل بيزنس"
+                        loading="lazy"
                       />
                     </div>
                     <div class="text-content">
@@ -3378,7 +3471,7 @@
       <!--                            <div class="content_wrap">-->
       <!--                                <div class="image">-->
       <!--                                    <a href="successtories/--><!--">-->
-      <!--                                        <img class="lazy" src="--><!--" data-src="--><!--"  data-srcset="--><!--"  alt="--><!--" />-->
+      <!--                                        <img class="lazy" src="--><!--" data-src="--><!--"  data-srcset="--><!--"  alt="--><!--" loading="lazy"/>-->
       <!--                                    </a>-->
       <!--                                </div>-->
       <!--                                <div class="main">-->
@@ -3414,6 +3507,7 @@
                 <img
                   src="assets/images/brand/logo2.png"
                   alt="أكاديمية اعمل بيزنس"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -3432,48 +3526,72 @@
                 rel="noopener"
                 href="https://www.facebook.com/e3melbusiness"
               >
-                <img src="assets/images/footer/facebook.svg" alt="facebook" />
+                <img
+                  src="assets/images/footer/facebook.svg"
+                  alt="facebook"
+                  loading="lazy"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 href="https://www.instagram.com/e3melbusinessacademy/"
               >
-                <img src="assets/images/footer/instagram.svg" alt="instagram" />
+                <img
+                  src="assets/images/footer/instagram.svg"
+                  alt="instagram"
+                  loading="lazy"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 href="https://www.linkedin.com/company/e3melbusinesscommunity/"
               >
-                <img src="assets/images/footer/linkedin.svg" alt="linkedin" />
+                <img
+                  src="assets/images/footer/linkedin.svg"
+                  alt="linkedin"
+                  loading="lazy"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 href="https://x.com/E3melBusiness"
               >
-                <img src="assets/images/footer/x.svg" alt="x" />
+                <img src="assets/images/footer/x.svg" alt="x" loading="lazy" />
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 href="https://www.tiktok.com/@e3melbusinessacademy?_t=ZS-8tqpR1G4Hqi&_r=1"
               >
-                <img src="assets/images/footer/tiktok.svg" alt="tiktok" />
+                <img
+                  src="assets/images/footer/tiktok.svg"
+                  alt="tiktok"
+                  loading="lazy"
+                />
               </a>
               <a
                 target="_blank"
                 rel="noopener"
                 href="https://www.snapchat.com/add/e3melbusinesss?share_id=1YZkGIzXTwKtDB4871vGkQ&locale=en_EG"
               >
-                <img src="assets/images/footer/snapchat.svg" alt="snapchat" />
+                <img
+                  src="assets/images/footer/snapchat.svg"
+                  alt="snapchat"
+                  loading="lazy"
+                />
               </a>
               <a target="_blank" rel="noopener" href="https://bit.ly/3MHWHZQ">
-                <img src="assets/images/footer/youtube.svg?v=1" alt="youtube" />
+                <img
+                  src="assets/images/footer/youtube.svg?v=1"
+                  alt="youtube"
+                  loading="lazy"
+                />
               </a>
               <!--                    <a target="_blank" href="https://wa.me/201099552979">-->
-              <!--                        <img src="assets/images/footer/whatsapp.svg" alt="whatsapp" />-->
+              <!--                        <img src="assets/images/footer/whatsapp.svg" alt="whatsapp" loading="lazy"/>-->
               <!--                    </a>-->
             </div>
           </div>
@@ -3509,6 +3627,7 @@
                   data-src="assets/images/payment/alrajah.svg?v=3.1.0.45"
                   data-srcset="assets/images/payment/alrajah.svg?v=3.1.0.45"
                   alt="alrajah"
+                  loading="lazy"
                 />
               </span>
               <span>
@@ -3519,6 +3638,7 @@
                   data-src="assets/images/payment/tabby.svg?v=3.1.0.45"
                   data-srcset="assets/images/payment/tabby.svg?v=3.1.0.45"
                   alt="tabby"
+                  loading="lazy"
                 />
               </span>
               <span>
@@ -3529,6 +3649,7 @@
                   data-src="assets/images/payment/tamara.svg?v=3.1.0.45"
                   data-srcset="assets/images/payment/tamara.svg?v=3.1.0.45"
                   alt="tamara"
+                  loading="lazy"
                 />
               </span>
               <span>
@@ -3539,6 +3660,7 @@
                   data-src="assets/images/payment/Madfu.svg?v=3.1.0.45"
                   data-srcset="assets/images/payment/Madfu.svg?v=3.1.0.45"
                   alt="Madfu"
+                  loading="lazy"
                 />
               </span>
               <span>
@@ -3549,6 +3671,7 @@
                   data-src="assets/images/payment/mispay.svg?v=3.1.0.45"
                   data-srcset="assets/images/payment/mispay.svg?v=3.1.0.45"
                   alt="mispay"
+                  loading="lazy"
                 />
               </span>
               <span>
@@ -3559,6 +3682,7 @@
                   data-src="assets/images/payment/alahly.svg?v=3.1.0.45"
                   data-srcset="assets/images/payment/alahly.svg?v=3.1.0.45"
                   alt="alahly"
+                  loading="lazy"
                 />
               </span>
 
@@ -3566,22 +3690,22 @@
               <!--                <img-->
               <!--                        src="assets/images/payment/vodafone.png"-->
               <!--                        alt="vodafone"-->
-              <!--                />-->
+              <!--                loading="lazy"/>-->
               <!--              </span>-->
               <!-- <span>
-                <img src="assets/images/payment/nbe.png" alt="nbe" />
+                <img src="assets/images/payment/nbe.png" alt="nbe" loading="lazy"/>
               </span>
                     <span>
-                <img src="assets/images/payment/fawry.png" alt="fawry" />
+                <img src="assets/images/payment/fawry.png" alt="fawry" loading="lazy"/>
               </span>
                     <span>
-                <img src="assets/images/payment/visa.png" alt="visa" />
+                <img src="assets/images/payment/visa.png" alt="visa" loading="lazy"/>
               </span>
                     <span>
                 <img
                         src="assets/images/payment/mastercard.png"
                         alt="mastercard"
-                />
+                loading="lazy"/>
               </span>-->
             </div>
           </div>
@@ -3596,10 +3720,7 @@
       async
       src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js?v=3.1.0.42"
     ></script>
-    <script
-      async
-      src="assets/plugins/swiper/swiper-bundle.min.js?v=3.1.0.42"
-    ></script>
+    <script src="assets/plugins/swiper/swiper-bundle.min.js?v=3.1.0.42"></script>
     <script
       async
       src="assets/plugins/validation/jquery.validate.min.js?v=3.1.0.42"
@@ -3775,5 +3896,39 @@
         }
       });
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        new Swiper(".swiper-container", {
+          // your options here
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const imgs = document.querySelectorAll("img[data-src]");
+        if ("IntersectionObserver" in window) {
+          let obs = new IntersectionObserver((entries, observer) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              let img = entry.target;
+              img.src = img.dataset.src;
+              img.removeAttribute("data-src");
+              observer.unobserve(img);
+            });
+          });
+          imgs.forEach((i) => obs.observe(i));
+        }
+      });
+    </script>
+    <script type="module" src="main.esm.js"></script>
+    <script nomodule src="main.legacy.js"></script>
+    <script>
+  window.addEventListener('DOMContentLoaded', () => {
+    let s = document.createElement('script');
+    s.src = '…/tracker.js';
+    s.async = true;
+    document.body.appendChild(s);
+  });
+</script>
   </body>
 </html>
