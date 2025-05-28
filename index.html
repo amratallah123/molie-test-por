@@ -891,9 +891,34 @@
         j.async = true;
         j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
         f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-PL5S58P");
-    </script>
-    <!-- End Google Tag Manager -->
+      })(window, document, "script", "dataLayer", "GTM-PL5S58P");    </script>
+    <!-- End Google Tag Manager -->    <!-- Prevent layout shifts with images -->
+    <style>
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      img[width][height] {
+        display: block;
+      }
+      .image {
+        display: block;
+        overflow: hidden;
+      }
+      /* Only target the hero image in banner section */
+      .banner_section > .container > .row > .col-xl-4 .image img {
+        width: 450px;
+        height: 450px;
+        object-fit: cover;
+      }
+      @media (max-width: 1199px) {
+        .banner_section > .container > .row > .col-xl-4 .image img {
+          width: 100%;
+          height: auto;
+          max-height: 450px;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Header -->
@@ -1569,15 +1594,16 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 d-flex align-items-center">
-              <div class="image">
+            </div>            <div class="col-xl-4 col-lg-6 d-flex align-items-center justify-content-center">
+              <div class="image" style="width: 450px; height: 450px; max-width: 100%;">
                 <img
-                  class="img img-fluid"
+                  class="img"
                   src="https://ik.imagekit.io/ebyosrntu/home-webp.webp?updatedAt=1748333009998"
                   alt="أكاديمية اعمل بيزنس"
                   fetchpriority="high"
                   loading="eager"
+                  width="450"
+                  height="450"
                 />
               </div>
             </div>
